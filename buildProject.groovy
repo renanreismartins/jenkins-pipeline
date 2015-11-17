@@ -10,6 +10,6 @@ job('Build Project - Refactoring') {
         scm('*/15 * * * *')
     }
     steps {
-        gradle('-e clean build')
+        gradle('build')
     }
 }
